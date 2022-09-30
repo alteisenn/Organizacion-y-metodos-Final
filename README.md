@@ -9,8 +9,8 @@ Debe mostrar un recibo de sueldo con los datos que requiere la ley de contrato d
 4) El CCT también exige 176 hs mensuales
 5) Calculo de horas extra al 50 o 100 %
 6) Pago de feriado en otro concepto aparte
-7) Mostrar las retenciones
-8) Mostrar Remuneración: Bruta, Neta, y total de deducciones
+7) Mostrar las retenciones :heavy_check_mark:
+8) Mostrar Remuneración: Bruta, Neta, y total de deducciones :heavy_check_mark:
 9) Vacaciones y Aguinaldo
 
 El trabajo es de 2 personas y quien obtenga una calificación mayor a 8 no realiza el último trabajo del año
