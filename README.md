@@ -3,7 +3,7 @@
 El siguiente trabajo debe mostrar una página para ingreso de novedades del mes en curso, realizada por el operador de Recursos Humanos.
 Debe mostrar un recibo de sueldo con los datos que requiere la ley de contrato de trabajo. Y las siguientes novedades
 
-1) 5 % de un total de 25 por cada día ausente (justificado o injustificado)
+1) 5 % de un total de 25 por cada día ausente (justificado o injustificado) :heavy_check_mark:
 2) Reducción de las horas básicas y aparición de un concepto de licencia
 3) Recordemos que el CCT exige que se pague un 10 % de productividad :heavy_check_mark:
 4) El CCT también exige 176 hs mensuales
