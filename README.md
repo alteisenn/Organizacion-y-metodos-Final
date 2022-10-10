@@ -6,7 +6,7 @@ Debe mostrar un recibo de sueldo con los datos que requiere la ley de contrato d
 1) 5 % de un total de 25 por cada día ausente (justificado o injustificado) :heavy_check_mark:
 2) Reducción de las horas básicas y aparición de un concepto de licencia
 3) Recordemos que el CCT exige que se pague un 10 % de productividad :heavy_check_mark:
-4) El CCT también exige 176 hs mensuales
+4) El CCT también exige 176 hs mensuales :heavy_check_mark:
 5) Calculo de horas extra al 50 o 100 %
 6) Pago de feriado en otro concepto aparte
 7) Mostrar las retenciones :heavy_check_mark:
