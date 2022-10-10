@@ -17,3 +17,10 @@ El trabajo es de 2 personas y quien obtenga una calificación mayor a 8 no reali
 
 
 > Se uso como base para la aplicacion el codigo encontrado en este [Repositorio]( https://github.com/jpmine/recibos-sueldo-js).
+
+## Distinciones entre TP
+
+- Uno con y otro sin nombre de empresa
+- Cambio de texto (obviamente)
+- Uno tema oscuro, otro tema claro
+- Uno muestra en pdf, otro en pag
