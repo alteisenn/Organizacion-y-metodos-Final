@@ -8,7 +8,7 @@ Debe mostrar un recibo de sueldo con los datos que requiere la ley de contrato d
 3) Recordemos que el CCT exige que se pague un 10 % de productividad :heavy_check_mark:
 4) El CCT también exige 176 hs mensuales :heavy_check_mark:
 5) Calculo de horas extra al 50 o 100 %
-6) Pago de feriado en otro concepto aparte
+6) Pago de feriado en otro concepto aparte (*Se muestra mal*)
 7) Mostrar las retenciones :heavy_check_mark:
 8) Mostrar Remuneración: Bruta, Neta, y total de deducciones :heavy_check_mark:
 9) Vacaciones y Aguinaldo
