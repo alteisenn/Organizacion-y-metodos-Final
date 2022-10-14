@@ -14,7 +14,7 @@ Debe mostrar un recibo de sueldo con los datos que requiere la ley de contrato d
 9) Vacaciones y Aguinaldo
 
 // Aguinaldo = (Basico + Presentismo + Bonif (10%) + hs extra)/2
-// Vacaciones = (Basico + Presentismo(25%) + Bonif)/2
+// Vacaciones = (Basico/22 * cant de dias que correspondan + Presentismo(25%) + Bonif)/2
 
 El trabajo es de 2 personas y quien obtenga una calificación mayor a 8 no realiza el último trabajo del año
 
