@@ -7,7 +7,7 @@ Debe mostrar un recibo de sueldo con los datos que requiere la ley de contrato d
 2) Reducción de las horas básicas y aparición de un concepto de licencia //Licencia justificada retorna las horas pero no el porcentaje de presentismo
 3) Recordemos que el CCT exige que se pague un 10 % de productividad :heavy_check_mark:
 4) El CCT también exige 176 hs mensuales :heavy_check_mark:
-5) Calculo de horas extra al 50 o 100 %
+5) Calculo de horas extra al 50 o 100 % :heavy_check_mark:
 6) Pago de feriado en otro concepto aparte (*Se muestra mal*)
 7) Mostrar las retenciones :heavy_check_mark:
 8) Mostrar Remuneración: Bruta, Neta, y total de deducciones :heavy_check_mark:
