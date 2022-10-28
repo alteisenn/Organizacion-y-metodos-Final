@@ -17,7 +17,7 @@
 <h1 align="center">  Organizacion y Metodos TP-11</h1>
 
 El siguiente trabajo debe mostrar una página para ingreso de novedades del mes en curso, realizada por el operador de Recursos Humanos.
-Debe mostrar un recibo de sueldo con los datos que requiere la ley de contrato de trabajo. Y las siguientes novedades
+Debe mostrar un recibo de sueldo con los datos que requiere la ley de contrato de trabajo. Y las siguientes novedades:
 
 `1) 5 % de un total de 25 por cada día ausente (justificado o injustificado) además se descuentan las 8 horas de trabajo`
 
