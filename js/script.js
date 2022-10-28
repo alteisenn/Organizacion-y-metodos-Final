@@ -386,7 +386,7 @@ function renderRecibo()
                 margin: [0, 0, 0, 10],
                 layout: {
                     fillColor: function (rowIndex, node, columnIndex) {
-                        return (rowIndex % 2 === 0) ? '#ffad08' : '#f5f5f5';
+                        return (rowIndex % 2 === 0) ? '#ffad08' : '#e88b00';
                     }
                 },
                 table: {
@@ -439,7 +439,7 @@ function renderRecibo()
                         ],
                         [
                             { 
-                                text: 'FALTAS: ' + cantFaltas +'        HS LICENCIA: '+diasLicencia * 8+'        HS TRABAJADAS: '+ horasTrabajo +'', //Faltas Justificadas
+                                text: 'Faltas: ' + cantFaltas +'        Horas Licencia: '+diasLicencia * 8+'        Horas Trabajadas: '+ horasTrabajo +'', //Faltas Justificadas
                                 fontSize: 11,
                                 bold: true
                             }
@@ -706,7 +706,7 @@ function renderRecibo()
                                 bold: true                                
                             }
                         ],   
-                        
+
                         [
                             {
                                 text: 'Total Deducciones: ' + totalRetenciones.toFixed(2),
