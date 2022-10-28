@@ -375,19 +375,13 @@ function renderRecibo()
         content: [
             { 
                 alignment: 'center',
-                text: 'E.E.S.T N°4',
+                text: 'E.E.S.T N°4 - Fecha: '+ fechaRecibo,
                 style: 'header',
                 fontSize: 18,
                 bold: true,
                 margin: [0, 10],
             },
-            { 
-                alignment: 'center',
-                text: 'FECHA: ' + fechaRecibo,
-                fontSize: 14,
-                bold: true,
-                margin: [0, 10],
-            },
+      
             {
                 margin: [0, 0, 0, 10],
                 layout: {
@@ -702,7 +696,17 @@ function renderRecibo()
                                 fontSize: 11,
                                 bold: true                                
                             }
-                        ],                                                
+                        ],
+                        
+                        [
+                            {
+                                text: 'Salario Neto: ' + salarioNeto.toFixed(2),
+                                alignment: 'right',
+                                fontSize: 11,
+                                bold: true                                
+                            }
+                        ],   
+                        
                         [
                             {
                                 text: 'Total Deducciones: ' + totalRetenciones.toFixed(2),
@@ -711,14 +715,7 @@ function renderRecibo()
                                 bold: true                                
                             }
                         ],                                                
-                        [
-                            {
-                                text: 'Salario Neto: ' + salarioNeto.toFixed(2),
-                                alignment: 'right',
-                                fontSize: 11,
-                                bold: true                                
-                            }
-                        ],                                                
+                                                               
                     ]
                 }
             }
