@@ -375,24 +375,18 @@ function renderRecibo()
         content: [
             { 
                 alignment: 'center',
-                text: 'E.E.S.T N°4',
+                text: 'E.E.S.T N°4 - Fecha: '+ fechaRecibo,
                 style: 'header',
                 fontSize: 18,
                 bold: true,
                 margin: [0, 10],
             },
-            { 
-                alignment: 'center',
-                text: 'FECHA: ' + fechaRecibo,
-                fontSize: 14,
-                bold: true,
-                margin: [0, 10],
-            },
+      
             {
                 margin: [0, 0, 0, 10],
                 layout: {
                     fillColor: function (rowIndex, node, columnIndex) {
-                        return (rowIndex % 2 === 0) ? '#ffad08' : '#f5f5f5';
+                        return (rowIndex % 2 === 0) ? '#ffad08' : '#e88b00';
                     }
                 },
                 table: {
@@ -445,7 +439,7 @@ function renderRecibo()
                         ],
                         [
                             { 
-                                text: 'FALTAS: ' + cantFaltas +'        HS LICENCIA: '+diasLicencia * 8+'        HS TRABAJADAS: '+ horasTrabajo +'', //Faltas Justificadas
+                                text: 'Faltas: ' + cantFaltas +'        Horas Licencia: '+diasLicencia * 8+'        Horas Trabajadas: '+ horasTrabajo +'', //Faltas Justificadas
                                 fontSize: 11,
                                 bold: true
                             }
@@ -702,7 +696,17 @@ function renderRecibo()
                                 fontSize: 11,
                                 bold: true                                
                             }
-                        ],                                                
+                        ],
+                        
+                        [
+                            {
+                                text: 'Salario Neto: ' + salarioNeto.toFixed(2),
+                                alignment: 'right',
+                                fontSize: 11,
+                                bold: true                                
+                            }
+                        ],   
+
                         [
                             {
                                 text: 'Total Deducciones: ' + totalRetenciones.toFixed(2),
@@ -711,14 +715,7 @@ function renderRecibo()
                                 bold: true                                
                             }
                         ],                                                
-                        [
-                            {
-                                text: 'Salario Neto: ' + salarioNeto.toFixed(2),
-                                alignment: 'right',
-                                fontSize: 11,
-                                bold: true                                
-                            }
-                        ],                                                
+                                                               
                     ]
                 }
             }
